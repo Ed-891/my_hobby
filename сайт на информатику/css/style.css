@@ -1,0 +1,253 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.body {
+	/*background-color: #CCECFF;*/
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+	background: -moz-linear-gradient(-45deg,  rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background-image: url(img/roads);
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
+	background: -moz-linear-gradient(-45deg,  rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.container {
+	margin-left: 15%;
+	margin-right: 13%;
+}
+.indent {
+	margin: 20px;
+}
+.btn {
+
+}
+.header {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cedbe9+0,aac5de+17,6199c7+50,3a84c3+51,419ad6+59,4bb8f0+71,3a8bc2+84,26558b+100;Blue+Gloss */
+	background: rgb(206,219,233); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(206,219,233,1) 0%, rgba(170,197,222,1) 17%, rgba(97,153,199,1) 50%, rgba(58,132,195,1) 51%, rgba(65,154,214,1) 59%, rgba(75,184,240,1) 71%, rgba(58,139,194,1) 84%, rgba(38,85,139,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	min-height: 123px;
+	overflow: hidden;
+}
+.header-side--tytle {
+	padding: 20px 0 10px 40px;
+}
+.header-side--tytle__tytle {
+	font: 700 325% 'times new roman', sans-serif;
+}
+.header-side--tytle__tytle a {
+	color: #000;
+}
+.header-side--tytle__tytle a:hover {
+	text-decoration: underline;
+}
+.header-navigation {
+	float: right;
+}
+.header-navigation-list {}
+.header-navigation-list__item {
+	float: left; 
+	padding: 10px 20px 0 0;
+}
+.header-navigation-list__item-link {
+  	font: normal 150% 'times new roman', sans-serif;
+	color: #9ae2fc;  	
+	display: block;
+}
+.header-navigation-list__item-link:hover {
+	color: #fff;
+}
+
+.header-navigation-list__item_selected a{
+	color: #fff; 
+}
+.header-navigation-list__item_selected a:hover {
+	text-decoration: underline;
+}
+.main {
+	min-height: 100vh;
+	margin: 30px 0 20px 0;
+}
+.main-content {
+	width: 78%;
+	float: left;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
+	background: rgb(179,220,237); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
+	padding: 15px;
+	height: 100vh;
+}
+.main-content-a {
+	color: #00f;
+	text-decoration: none;
+	font-size: 20px;
+}
+.main-content-img {
+	width: 100%;
+	padding: 10px 0;
+}
+.main-content-gallery-img-gal3 {
+	width: 33.333%;
+	padding: 10px 5px;
+}
+.main-content-h2 {
+	font: 700 220% 'times new roman';
+	padding: 10px 0;
+}
+.main-content-h3 {
+	font: 700 170% 'times new roman';
+}
+.main-content-h3_center {
+	font: 700 170% 'times new roman';
+	padding-bottom: 10px;
+}
+.main-content-p {
+	font: 200 140% 'times new roman';
+	padding-bottom: 15px;
+}
+.main-content-img__myphoto {
+	width: 250px;
+	float: right;
+	margin: 20px 0 0 0;
+	border: solid 1px #000;
+}
+.main-content-h2__private {
+	font: 700 200% 'times new roman';
+	padding: 10px 0;
+	text-align: center;
+}
+.main-content-h3__private {
+	font: 200 170% 'times new roman';
+	text-align: right;
+}
+.main-content__form {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+.main-content__name {
+	font: normal 120% arial;
+	padding: 7px;
+	margin: 35px 0 0 0;
+}
+.main-content__coment {
+	font: normal 120% arial;
+	padding: 7px;
+	margin: 10px 0 0 0;
+}
+.main-content__send--comment {
+	padding: 7px;
+	margin: 13px 0 0 0;
+	width: 150px;
+	font: bold 120% arial;
+	letter-spacing: 0.01em;
+}
+.main-content-gallery{}
+.main-sidebar {
+	width: 19%;
+	float: right;
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
+	background: rgb(179,220,237); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
+	padding: 15px;
+	height: 100vh;
+}
+.main-sidebar__h2 {
+	font: 700 200% 'times new roman';
+	padding: 10px 0;
+	overflow: hidden;
+}
+.main-sidebar-list {
+	padding: 0 0 2px 20px;
+	overflow: hidden;
+}
+.main-sidebar-list__item {
+	list-style-type: circle;
+}
+.main-sidebar-list__item-link {
+	font: 200 140% 'times new roman';
+	color: #222;
+}
+.help {
+	height: 1px;
+}
+.footer {
+	background-color: #8c8e8f;
+	display: block;
+	padding: 20px;
+	padding-bottom: 10px;
+	float: bottom;
+}
+.footer-link {
+	margin-bottom: 10px;
+}
+.footer-link__p {
+	font: 700 140% 'times new roman';
+}
+.footer-link_bold {
+	font: 700 120% 'times new roman';
+}
+.footer-link__tel {
+	font: 200 100% 'times new roman';
+}
+.footer-link__mail {
+	font: 200 100% 'times new roman';
+
+}
+.footer-moreinfo {
+	font: 200 100% 'times new roman';
+	text-align: center;
+}
+
+
+
